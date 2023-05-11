@@ -1,0 +1,15 @@
+.test{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+.slider__item{
+    scroll-snap-align: start;
+    height: 100vh;
+    font-size: 26px;
+    transition: all 0s linear;
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    -ms-transition: all 0s linear;
+    -o-transition: all 0s linear;
+}
